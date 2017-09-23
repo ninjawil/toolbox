@@ -18,7 +18,7 @@ offer suggestions for cleaning it up. These have been implemented and my thanks 
 '''
 
 
-import cElementTree as ElementTree
+from xml.etree import cElementTree as ElementTree
 
 class XmlListConfig(list):
     def __init__(self, aList):
